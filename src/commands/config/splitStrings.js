@@ -1,3 +1,5 @@
+//split
+
 import { sendEmbed } from '../../util';
 import { getSplit, setSplit } from '../../../db/splitString';
 import language from '../../functions/language';
