@@ -1,0 +1,252 @@
+{
+	"languageName": "es-ES",
+	"general": {
+		"userNotFound": "Usuario No Encontrado",
+		"commandNotFound": "El comando ingresado no existe.",
+		"notManageable": "No Tengo Permitido Acceder a Este Usuario",
+		"id": "Id: ",
+		"yes": "Si",
+		"not": "No"
+	},
+	"init": {
+		"fonts": {
+			"title": "Fuentes",
+			"head1": "Nombre"
+		},
+		"events": {
+			"title": "Eventos",
+			"head1": "Evento"
+		},
+		"commands": {
+			"title": "Comandos",
+			"head1": "Comando",
+			"notWorking": "❌ -> No puedes Colocar un comando aqui."
+		},
+		"head": "Estado de Carga",
+		"error": "Ocurrio Un Error al Loggearse Verifica El Password o Internet :X",
+		"notAttribute": "❌ -> No tiene el atributo '{{ attribute }}'",
+		"notReq": "❌ -> 'req' No tiene el atributo '{{ req }}'",
+		"notFunction": "❌ -> '{{ notFunction }}' no es una función",
+		"disabled": "⚠ -> Se Encuentra Deshabilitado",
+		"hidden": "⛔",
+		"good": "✅"
+	},
+	"ready": {
+		"bot": "Bot listo como: {{ nameBot }}",
+		"events": "Eventos: {{ events }}",
+		"commands": "Numero de Comandos: {{ commands }}",
+		"servers": "Numero de Servidores: {{ servers }}",
+		"users": "Numero de Usuarios: {{ users }}",
+		"actiName": "Cold Bot esta en {{ servers }} servidores. Vamo´ a por mas."
+	},
+	"message": {
+		"mentionBot": "Hola, El Prefix es: `{{ prefix }}` \nusa `{{ prefix }}h` para saber mas",
+		"notMd": "El Comando no se puede usar en  MD (dm).",
+		"notServer": "Necesitas estar en MD (dm) para usar este comando.",
+		"invalidPermissions": "No Posee los Permisos Necesarios. Necesita los siguientes permisos:",
+		"notHavePermissions": "No Puedo Usar este comando 😵, Necesito los siguientes permisos:",
+		"invalidArgs": "Faltan Argumentos, Uso del Comando | Ejemplos: {{ usage }}",
+		"cooldown": "Tienes que esperar {{ seg }}s cada que uses este comando.",
+		"error": "A Ocurrido un Error Contacta al Administrador: {{ dev }}",
+		"notSendMsg": "No puedo enviar Mensajes en el servidor **{{ server }}.**",
+		"notSendEmbeds": "No puedo adjutar Embeds, Habilitame la opción de Insertar Enlaces D:"
+	},
+	"channelUpdate": {
+		"title": "**[Canal Editado]**",
+		"settings": "Se han editado los Permisos y Ajustes Generales.\n\nCanal: **{{ channel }}** \nCanal ID : **{{ id }}**",
+		"nameEdited": "\nNombre anterior: **{{ oldName }}**\nNuevo nombre: **{{ newName }}**\nCanal ID: **{{ id }}**\n"
+	},
+	"emojiUpdate": {
+		"title": "**[Emoji Editado]**",
+		"description": "Emoji **{{ oldName }}** fue actualizado a **{{ newName }}**"
+	},
+	"memberGoodbye": {
+		"title": "**[Salio un Miembro]**",
+		"description": "{{ member }} salió del Servidor {{ server }}.",
+		"message": "Hasta Luego {{ member }} B)",
+		"titleCard": "{{ member }} Salió.",
+		"descriptionCard": "¡Hasta Luego!"
+	},
+	"memberWelcome": {
+		"title": "**[Nuevo Miembro]**",
+		"description": "{{ member }} ha entrado al Servidor {{ server }}.",
+		"messageMd": "{{ member }} Holaaa, Bienvenid@ a {{ server }}.",
+		"message": "Bienvenid@ {{ member }}",
+		"titleCard": "{{ member }} Bienvenid@",
+		"descriptionCard": "Al Servidor {{ server }}"
+	},
+	"pinsUpdate": {
+		"title": "**[Mensaje Anclado]**",
+		"description": "Se actualizo un mensaje anclado en el canal <#{{ id }}>"
+	},
+	"guildMemberRemove": {
+		"title": "{{ member }} Salió.",
+		"description": "¡Hasta Luego!"
+	},
+	"botinfo": {
+		"usage": "```{{ p }} botinfo```",
+		"description": "Da la Información de Cold Bot, numero de servidores, canales, desarrollador, esas cosas.",
+		"title": "☁ Información - Cold Bot",
+		"descriptionBot": "Hola, Soy un Bot multiproposito de **codigo abierto**, espero que te diviertas utilizando mis funciones. y me ayudes a mejorar mis falencias.",
+		"titleGeneral": "🔘 General",
+		"fieldGeneral": "============\n⚙ **Desarrollador**: {{ dev }}\n📡 **Servidores**: `{{ servers }}`\n👥 **Usuarios**: `{{ users }}`\n📣 **Canales**: `{{ channels }}`",
+		"titleBot": "🤖 Bot",
+		"fieldBot": "============\n🏓 **Ping**: `{{ ping }}ms`\n⌨ **Comandos**: `{{ commands }}`\n🕹 **Discord.js**: `{{ discordV }}`\n🇳 **NodeJS**: `{{ nodeV }}`"
+	},
+	"help": {
+		"usage": "```{{ p }} help``````{{ p }} h <comando>```",
+		"description": "Brinda Una ayuda Basica de Cold Bot y tambien puede darte informacion adicional de cada comando.",
+		"complements": {
+			"complement1": ", y el separador de argumentos es `{{ value }}`",
+			"complement2": "🪐 Requiere algunos permisos para su uso",
+			"complement3": "🪐 Es libre de permisos",
+			"complement4": "🪐 Se puede usar en MD [dm]",
+			"complement5": "🪐 No se puede usar en MD [dm]",
+			"complement6": "🪐 Tiene un cooldown de {{ seg }}s"
+		},
+		"text": "Hola, El prefix es `{{ prefix }}` {{ text1 }} \n\n:small_blue_diamond:Para ver la lista completa de comandos, use: `{{ prefix }}cmds` \n:small_blue_diamond:Para ver una descripción mas detallada del Comando, use: `{{ prefix }}h <comando>`\n:small_blue_diamond:Para cambiar el lenguaje el administrador debe usar: `{{ prefix }}lang`\n\n:small_blue_diamond:¿Un comando no funciona como deberia?, usa el comando: `{{ prefix }}report`\n:small_blue_diamond:No dudes en Utilizar `{{ prefix }}suggestbot` para recibir tus sugerencias!.",
+		"titleLink": "Enlaces",
+		"links": ":snowflake: [Servidor de Soporte](https://discord.gg/UA6sSqKXpZ)\n:snowflake: [Invitame a tu servidor]({{ link }})\n:snowflake: ",
+		"notFound": "Comando No Encontrado.",
+		"category": "Categoria: {{ category }}",
+		"name": "`Comando: {{ command }}`",
+		"alias": "Alias",
+		"descripCommand": "Descripción",
+		"usageCommand": "Uso | Ejemplos",
+		"settingsCommand": "```Argumentos Minimos Solicitados: {{ args }}\n\n{{ md }}\n{{ permissions }}\n{{ cooldown }}```"
+	},
+	"commands": {
+		"usage": "```{{ p }} commands```",
+		"description": "Muestro una lista de todos los comandos que se pueden usar ∩︿∩",
+		"title": "Lista de Comandos",
+		"commandsNum": "Prefix: `{{ prefix }}`\nNúmero de Comandos: `{{ num }}`",
+		"footer": "¿El numero de comandos no cuadra con la lista? ¡Hay Comandos Ocultos!"
+	},
+	"language": {
+		"usage": "```{{ p }} lang``````{{ p }} lang <Nuevo Lenguaje>```",
+		"description": "Cambia el Lenguaje general del bot a otro para todo tu servidor",
+		"title": "Lenguajes",
+		"notFound": "Idioma no disponible, use el comando `lang`, para ver la lista de lenguajes.",
+		"selected": "El lenguaje seleccionado es `{{ lang }}`",
+		"chosenOne": "Idioma actualizado a `{{ lang }}`"
+	},
+	"prefix": {
+		"usage": "```{{ p }} prefix <Nuevo Prefix>```",
+		"description": "Cambia el prefix del bot en tu Servidor",
+		"message": "Cambiando el Prefix a `{{ prefix }}`"
+	},
+	"split": {
+		"usage": "```{{ p }} split <true/false> {{ s }} <Separador de Argumentos>```",
+		"description": "No te gusta el separador de argumentos?, aqui puedes desactivarlo o cambiarlo por otro.",
+		"message": "Cambiando el Separador de Argumentos a `{{ split }}`",
+		"activated": "El Separador de Argumentos Esta Activo.",
+		"disabled": "Se ha desactivado el Separador de Argumentos"
+	},
+	"ping": {
+		"usage": "```{{ p }} ping``````{{ p }} pong```",
+		"description": "Muestra el Ping del bot.",
+		"title": "Pong!! 🏓",
+		"loading": "Preparando terreno....",
+		"text": "🔹 Mensajes: `{{ pingMsg }} ms`.\n🔹 API: `{{ pingApi }} ms`."
+	},
+	"status": {
+		"usage": "```{{ p }} status <status> {{ s }} <type> {{ s }} <name> {{ s }} [url]```",
+		"description": "Esto solo es del uso exclusivo del administrador del bot, y se usa para cambiar el estado del bot.",
+		"text": "Mi estado se ha actualizado Correctamente (งツ)ว"
+	},
+	"suggestbot": {
+		"usage": "```{{ p }} suggestbot <Sugerencia/Idea para el bot>``````{{ p }} sugerirbot <Sugerencia/Idea>```",
+		"description": "Tienes alguna sugerencia/idea para compartirla con nosotros?, que estas esperando, Usa este comando!!",
+		"inserver": "**Servidor:**```\nNombre: {{ server }}\nID: {{ serverId }}```**Contenido:**```{{ content }}```",
+		"inmd": "**Servidor:**```\nMensaje Enviado Por DM```**Contenido:**```{{ content }}```",
+		"message": "{{ user }}, Tu sugerencia ha sido enviada, gracias a esto es que el proyecto mejora día tras día. :muscle:"
+	},
+	"report": {
+		"usage": "```{{ p }} report <Comando> {{ s }} <Reporte>```",
+		"description": "Un Comando no funciona como deberia?, Reportalo!!",
+		"inserver": "**Servidor:**```\nNombre: {{ server }}\nID: {{ serverId }}```**Comando:**```{{ command }}```**Problema:**```{{ bug }}```",
+		"inmd": "**Servidor:**```\nMensaje Enviado Por DM```**Comando:**```{{ command }}```**Problema:**```{{ bug }}```",
+		"message": "{{ user }}, Gracias Por Reportarnos el problema. Lo solucionaremos lo mas rapido posible. :100:"
+	},
+	"server": {
+		"usage": "```{{ p }} serverinfo```",
+		"description": "Muestra la Información del servidor en el que te encuentras.",
+		"id": "ID",
+		"region": "Región",
+		"date": "Fecha de Creación",
+		"owner": "Dueño del Servidor",
+		"members": "Miembros"
+	},
+	"ticket": {
+		"usage": "```{{ p }} ticket``````{{ p }} ticket close```",
+		"description": "Esta herramienta es Util para dar soportes individuales en tu servidor, donde los usuarios podran reaccionar y obtener un canal especial para ellos y sus dudas.",
+		"titleSupport": "SOPORTE | Cold Bot",
+		"titleTicket": "TICKET | Cold Bot",
+		"descripDisabled": "`Por el momento las ayudas estan deshabilitadas.`",
+		"descripEnable": "@everyone `Reacciona con un `📩` para abrir un Ticket.`\n\nRecuerda que solo puede haber maximo un ticket abierto por persona.",
+		"descripTicket": "<@{{ id }}> tu ticket ha sido solicitado. Reacciona a '❌' para cerrar el Ticket.\n\nLos Administradores tambien podran eliminar tu Ticket"
+	},
+	"avatar": {
+		"usage": "```{{ p }} avatar``````{{ p }} avatar [Usuario]``````{{ p }} avatar [Usuario/Texto] {{ s }} -gen```",
+		"description": "Muestra tu avatar de discord, con un enlace para descargarlo. o tambien puedes generar un avatar ya sea con un usuario, o atráves de una frase/texto.",
+		"title": "Avatar de {{ user }}"
+	},
+	"profile": {
+		"usage": "```{{ p }} profile``````{{ p }} profile [Usuario]``````{{ p }} profile [Usuario] {{ s }} -img``````{{ p }} profile -img```",
+		"description": "Muestra la Información de tu perfil en el servidor en el que te encuentras. tambien puedes hacer que se muestre atraves de una imagen.",
+		"bot": "Bot",
+		"human": "Humano",
+		"nickname": "Apodo",
+		"tag": "Tag",
+		"status": "Estado",
+		"roles": "Roles",
+		"register": "Esta en Discord Desde",
+		"entry": "Esta en el Servidor Desde",
+		"notRoles": "No tiene Ningun Rol",
+		"tagImg": "Tag: #{{ tag }}",
+		"registerImg": "Entro a Discord: {{ date }}",
+		"entryImg": "Entro al Servidor: {{ date }}"
+	},
+	"clear": {
+		"usage": "```{{ p }} cls <Mensajes a Borrar>``````{{ p }} clear <Numero>```",
+		"description": "Borra el Numero de mensajes que escribas en el primer argumento, un maximo de 99.",
+		"error": "No puede Colocar numeros negativos o Eliminar mas de 99 mensajes",
+		"message": "<@{{ user }}> Elimino `{{ number }}` mensajes de <#{{ channel }}>",
+		"success": "Se han Eliminado {{ number }} Mensajes (งツ)ว"
+	},
+	"meme": {
+		"usage": "```{{ p }} meme <link de imagen> {{ s }} <texto> {{ s }} [Color Hexadecimal]``````{{ p }} meme <link> {{ s }} <texto>```",
+		"description": "Genera un meme atraves de una imagen y texto que le envies, tambien opcionalmente puedes enviar el color del texto.",
+		"imgNotWork": "La Imagen Enviada No Sirve..."
+	},
+	"dice": {
+		"usage": "```{{ p }} dado```",
+		"description": "Lanza el dado y de forma aleatoria te da la cara de un dado.",
+		"titleGif": "Lanzando dado...",
+		"titleDice": "{{ user }}, El dado saco un: "
+	},
+	"question": {
+		"usage": "```{{ p }} q <pregunta/duda/sugerencia>```",
+		"description": "Comando Empleado para crear una pregunta rapida, y que esta sea respondida por medio de votos",
+		"title": "Encuesta",
+		"one": "Opción 1",
+		"two": "Opción 2",
+		"desOne": "👍 De Acuerdo",
+		"desTwo": "👎 En Desacuerdo"
+	},
+	"ascii": {
+		"usage": "```{{ p }} ascii <frase/palabra>``````{{ p }} art <frase/palabra>```",
+		"description": "Convierte Palabras y Frases a un efecto Ascii",
+		"error": "El Texto Ingresado No Es Valido",
+		"long": "El texto pasa los limites Permitidos"
+	},
+	"nickname": {
+		"usage": "```{{ p }} nick <Usuario> {{ s }} <Nuevo Apodo>``````{{ p }} apodo <Usuario> {{ s }} <Nuevo Apodo>```",
+		"description": "Cambia el apodo del Usuario mencionado.",
+		"success": "El apodo de {{ user }}, se ha actualizado correctamente a `{{ nick }}`"
+	},
+	"ball8": {
+		"usage": "```{{ p }} nick <Usuario> {{ s }} <Nuevo Apodo>``````{{ p }} apodo <Usuario> {{ s }} <Nuevo Apodo>```",
+		"description": "Cambia el apodo del Usuario mencionado."
+	}
+}
