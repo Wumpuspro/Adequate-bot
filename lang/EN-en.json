@@ -1,0 +1,248 @@
+{
+	"languageName": "en-EN",
+	"general": {
+		"userNotFound": "User Not Found",
+		"commandNotFound": "The command entered does not exist",
+		"notManageable": "I am not allowed to access this user",
+		"id": "Id: ",
+		"yes": "Yes",
+		"not": "Not"
+	},
+	"init": {
+		"fonts": {
+			"title": "Fonts",
+			"head1": "Name"
+		},
+		"events": {
+			"title": "Events",
+			"head1": "Event"
+		},
+		"commands": {
+			"title": "Commands",
+			"head1": "Command",
+			"notWorking": "❌ -> You cannot place a command here."
+		},
+		"head": "State of Charge",
+		"error": "An error occurred when logging, Verify the password or Internet :X",
+		"notAttribute": "❌ -> does not have the attribute '{{ attribute }}'",
+		"notReq": "❌ -> 'req' does not have the attribute '{{ req }}'",
+		"notFunction": "❌ -> '{{ notFunction }}' is not a function",
+		"disabled": "⚠ -> It is Disabled",
+		"hidden": "⛔",
+		"good": "✅"
+	},
+	"ready": {
+		"bot": "Bot ready as: {{ nameBot }}",
+		"events": "Events: {{ events }}",
+		"commands": "Number of Commands: {{ commands }}",
+		"servers": "Number of Servers: {{ servers }}",
+		"users": "Number of Users: {{ users }}",
+		"actiName": "Cold Bot is on {{ servers }} servers. Let's go for more."
+	},
+	"message": {
+		"mentionBot": "Hello, The prefix is: `{{ prefix }}` \nuse `{{ prefix }}h` to know more.",
+		"notMd": "Command cannot be used in DM",
+		"notServer": "You need to be in DM to use this command.",
+		"invalidPermissions": "It does not have the necessary permits. You need the following permissions:",
+		"notHavePermissions": "I can't use this command 😵, I need the following permissions:",
+		"invalidArgs": "Arguments missing, Usage example: {{ usage }}",
+		"cooldown": "You have to wait {{ seg }}s every time you use this command.",
+		"error": "An error occurred Contact your administrator: {{ dev }}",
+		"notSendMsg": "I cannot send messages to **{{ server }}** server.",
+		"notSendEmbeds": "I can't attach Embeds, Enable me the option to Insert Links D:"
+	},
+	"channelUpdate": {
+		"title": "**[Edited Channel]**",
+		"settings": "General Settings and Permissions have been edited.\n\nChannel: **{{ channel }}**\nChannel ID : **{{ id }}**",
+		"nameEdited": "\nPrevious name: **{{ oldName }}**\nNew name: **{{ newName }}**\nChannel ID: **{{ id }}**\n"
+	},
+	"emojiUpdate": {
+		"title": "**[Edited Emoji]**",
+		"description": "**{{ oldName }}** emoji was updated to **{{ newName }}**"
+	},
+	"memberGoodbye": {
+		"title": "**[Member Left]**",
+		"description": "{{ member }} left the {{ server }} server.",
+		"message": "Goodbye {{ member }} B)",
+		"titleCard": "{{ member }} came out.",
+		"descriptionCard": "Bye!"
+	},
+	"memberWelcome": {
+		"title": "**[New Member]**",
+		"description": "{{ member }} has joined the {{ server }} server.",
+		"messageMd": "{{ member }} Hellooooo, Welcome to {{ server }}.",
+		"message": "Welcome {{ member }}",
+		"titleCard": "{{ member }} Welcome",
+		"descriptionCard": "To the {{ server }} server"
+	},
+	"pinsUpdate": {
+		"title": "**[Pinned Message]**",
+		"description": "Updated a message pinned to channel <#{{ id }}>"
+	},
+	"botinfo": {
+		"usage": "```{{ p }} botinfo```",
+		"description": "It shows the Cold Bot Information, number of servers, channels, developer, those things.",
+		"title": "☁ Information - Cold Bot",
+		"descriptionBot": "Hi, I'm an ** open source ** multipurpose Bot, I hope you have fun using my features. and help me improve my shortcomings.",
+		"titleGeneral": "🔘 General",
+		"fieldGeneral": "============\n⚙ **Developer**: {{ dev }}\n📡 **Servers**: `{{ servers }}`\n👥 **Users**: `{{ users }}`\n📣 **Channels**: `{{ channels }}`",
+		"titleBot": "🤖 Bot",
+		"fieldBot": "============\n🏓 **Ping**: `{{ ping }}ms`\n⌨ **Commands**: `{{ commands }}`\n🕹 **Discord.js**: `{{ discordV }}`\n🇳 **NodeJS**: `{{ nodeV }}`"
+	},
+	"help": {
+		"usage": "```{{ p }} help``````{{ p }} h <command>```",
+		"description": "Provides Basic Help for Cold Bot and can also give you additional information on each command.",
+		"complements": {
+			"complement1": ", and the argument separator is `{{ value }}`",
+			"complement2": "🪐 Requires some permissions for its use",
+			"complement3": "🪐 Does not require permissions",
+			"complement4": "🪐 Can be used in dm",
+			"complement5": "🪐 Cannot be used in dm",
+			"complement6": "🪐 Has a {{ seg }}s cooldown."
+		},
+		"text": "Hello, The prefix is `{{ prefix }}` {{ text1 }} \n\n:small_blue_diamond:To see the full list of commands use `{{ prefix }}cmds` \n :small_blue_diamond:For a more detailed description of using Command, use: `{{ prefix }}h <command>`\n:small_blue_diamond:For the administrator to change the language to use: `{{ prefix }}lang`\n\n:small_blue_diamond:A command does not work as it should?, Use the command: `{{ prefix }}report`\n:small_blue_diamond:Feel free to use `{{ prefix }}suggestbot` to receive your suggestions!",
+		"titleLink": "Links",
+		"links": ":snowflake: [Support Server](https://discord.gg/UA6sSqKXpZ)\n:snowflake: [Invite me to your server]({{ link }})\n:snowflake: ",
+		"notFound": "Command not found.",
+		"category": "Category: {{ category }}",
+		"name": "`Command: {{ command }}`",
+		"alias": "Alias",
+		"descripCommand": "Description",
+		"usageCommand": "Usage | Examples",
+		"settingsCommand": "```Minimum arguments requested: {{ args }}\n\n{{ md }}\n{{ permissions }}\n{{ cooldown }}```"
+	},
+	"commands": {
+		"usage": "```{{ p }} commands```",
+		"description": "I show a list of all the commands that can be used",
+		"title": "Command List",
+		"commandsNum": "Prefix: `{{ prefix }}`\nNumber of Commands: `{{ num }}`",
+		"footer": "The number of commands does not match the list? There are Hidden Commands!"
+	},
+	"language": {
+		"usage": "```{{ p }} lang``````{{ p }} lang <New Lenguaje>```",
+		"description": "Change the General Language of the bot to another for your entire server",
+		"title": "Languages",
+		"notFound": "Language not available",
+		"selected": "The selected language is `{{ lang }}`",
+		"chosenOne": "Language updated to `{{ lang }}`"
+	},
+	"prefix": {
+		"usage": "```{{ p }} prefix <New Prefix>```",
+		"description": "Change the prefix of the bot on your Server",
+		"message": "Changing the prefix to `{{ prefix }}`"
+	},
+	"split": {
+		"usage": "```{{ p }} split <true/false> {{ s }} <Argument Separator>```",
+		"description": "You don't like the argument separator ?, here you can deactivate it or change it to another.",
+		"message": "Change the argument separator to `{{ split }}`",
+		"activated": "The Argument Separator is Active.",
+		"disabled": "Argument Separator has been disabled"
+	},
+	"ping": {
+		"usage": "```{{ p }} ping``````{{ p }} pong```",
+		"description": "Shows the Ping of the bot.",
+		"title": "Pong!! 🏓",
+		"loading": "Preparing ground...",
+		"text": "🔹 Latency is `{{ pingMsg }} ms`.\n🔹 API Latency is `{{ pingApi }} ms`."
+	},
+	"status": {
+		"usage": "```{{ p }} status <status> {{ s }} <type> {{ s }} <name> {{ s }} [url]```",
+		"description": "This is only for the bot admin use, and is used to change the bot's state.",
+		"text": "My status has been updated successfully (งツ)ว"
+	},
+	"suggestbot": {
+		"usage": "```{{ p }} suggestbot <Suggestion/Idea for the bot>``````{{ p }} sb <Suggestion/Idea>```",
+		"description": "Do you have any suggestions / ideas to share with us? What are you waiting for? Use this command !!",
+		"inserver": "**Server:**```\nName: {{ server }}\nID: {{ serverId }}```**Content:**```{{ content }}```",
+		"inmd": "**Server:**```\nMessage Sent By DM```**Content:**```{{ content }}```",
+		"message": "{{ user }}, Your suggestion has been sent, thanks to this the project improves day after day. :muscle:"
+	},
+	"report": {
+		"usage": "```{{ p }} report <Command> {{ s }} <Report>```",
+		"description": "A Command does not work as it should ?, Report it!",
+		"inserver": "**Server:**```\nName: {{ server }}\nID: {{ serverId }}```**Command:**```{{ command }}```**Bug:**```{{ bug }}```",
+		"inmd": "**Server:**```\nMessage Sent By DM```**Command:**```{{ command }}```**Bug:**```{{ bug }}```",
+		"message": "{{ user }}, Thank you for reporting the problem to us. We will solve it as quickly as possible. :100:"
+	},
+	"server": {
+		"usage": "```{{ p }} serverinfo```",
+		"description": "It shows the information of the server where you are.",
+		"id": "ID",
+		"region": "Region",
+		"date": "Creation Date",
+		"owner": "Server Owner",
+		"members": "Members"
+	},
+	"ticket": {
+		"usage": "```{{ p }} ticket``````{{ p }} ticket close```",
+		"description": "This tool is useful to give individual supports to your server, where users can react and get a special channel for them and their questions.",
+		"titleSupport": "SUPPORT | Cold Bot",
+		"titleTicket": "TICKET | Cold Bot",
+		"descripDisabled": "`At the moment the tickets are disabled.`",
+		"descripEnable": "@everyone `React with a `📩` to open a ticket.`\n\nRemember that there can only be a maximum of one open ticket per person.",
+		"descripTicket": "<@{{ id }}> your ticket has been requested. React with a '❌' to close the Ticket.\n\nAdministrators can also delete their Ticket"
+	},
+	"avatar": {
+		"usage": "```{{ p }} avatar``````{{ p }} avatar [User]``````{{ p }} avatar [User/Text] {{ s }} -gen```",
+		"description": "Show your Discord avatar, with a link to download it. or you can also generate an avatar either with a user, or generate it through a phrase / text.",
+		"title": "{{ user }}'s Avatar"
+	},
+	"profile": {
+		"usage": "```{{ p }} profile``````{{ p }} profile [User]``````{{ p }} profile [User] {{ s }} -img``````{{ p }} profile -img```",
+		"description": "Show your profile information on the server where you are. you can also make it show through an image.",
+		"bot": "Bot",
+		"human": "Human",
+		"nickname": "Nickname",
+		"tag": "Tag",
+		"status": "Status",
+		"roles": "Roles",
+		"register": "On Discord since",
+		"entry": "On the server since",
+		"notRoles": "Has no role",
+		"tagImg": "Tag: #{{ tag }}",
+		"registerImg": "Join To Discord: {{ date }}",
+		"entryImg": "Join To Server: {{ date }}"
+	},
+	"clear": {
+		"usage": "```{{ p }} cls <Number of Messages>```",
+		"description": "Delete the number of messages you write in the first argument, a maximum of 99.",
+		"error": "You cannot put negative numbers or delete more than 99 messages",
+		"message": "<@{{ user }}> delete `{{ number }}` messages of <#{{ channel }}>",
+		"success": "{{ number }} messages have been removed (งツ)ว"
+	},
+	"meme": {
+		"usage": "```{{ p }} meme <image link> {{ s }} <text> {{ s }} [Hexadecimal Color]``````{{ p }} meme <link> {{ s }} <text>```",
+		"description": "Generate a meme through an image and text that you send, you can also optionally send the color of the text.",
+		"imgNotWork": "The Sent Image Doesn't Work ..."
+	},
+	"dice": {
+		"usage": "```{{ p }} dice```",
+		"description": "Roll the dice and it randomly gives you the face of a dice.",
+		"titleGif": "throwing dice...",
+		"titleDice": "{{ user }}, in the dice came a: "
+	},
+	"question": {
+		"usage": "```{{ p }} q <question>```",
+		"description": "Command to create a quick question and get an answer by votes",
+		"title": "Survey",
+		"one": "Option 1",
+		"two": "Option 2",
+		"desOne": "👍 Agree",
+		"desTwo": "👎 In disagreement"
+	},
+	"ascii": {
+		"usage": "```{{ p }} ascii <phrase / word>``````{{ p }} art <phrase / word>```",
+		"description": "Convert Words and Phrases to an Ascii effect",
+		"error": "The entered text is invalid",
+		"long": "The text passes the allowed limits"
+	},
+	"nickname": {
+		"usage": "```{{ p }} nick <User> {{ s }} <New Nickname>```",
+		"description": "Change the nickname of the mentioned User.",
+		"success": "{{ user }} nickname, has been successfully updated to `{{ nick }}`"
+	},
+	"ball8": {
+		"usage": "```{{ p }} nick <Usuario> {{ s }} <Nuevo Apodo>``````{{ p }} apodo <Usuario> {{ s }} <Nuevo Apodo>```",
+		"description": "Cambia el apodo del Usuario mencionado."
+	}
+}
