@@ -176,8 +176,8 @@
 	"ticket": {
 		"usage": "```{{ p }} ticket``````{{ p }} ticket close```",
 		"description": "This tool is useful to give individual supports to your server, where users can react and get a special channel for them and their questions.",
-		"titleSupport": "SUPPORT | Cold Bot",
-		"titleTicket": "TICKET | Cold Bot",
+		"titleSupport": "SUPPORT | Adequate Bot",
+		"titleTicket": "TICKET | Adequate Bot",
 		"descripDisabled": "`At the moment the tickets are disabled.`",
 		"descripEnable": "@everyone `React with a `📩` to open a ticket.`\n\nRemember that there can only be a maximum of one open ticket per person.",
 		"descripTicket": "<@{{ id }}> your ticket has been requested. React with a '❌' to close the Ticket.\n\nAdministrators can also delete their Ticket"
