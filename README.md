@@ -25,7 +25,7 @@ Adequate also adds **a new mention** like @everyone and @here, the `@someone`, w
 
 ### Many commands
 
-Atlanta has a lot of features, with **7 main categories**:
+Adequate has a lot of features, with **6 main categories**:
 
 *   👩‍💼 **Administration**: `clearmsg`, `nickname`, `welcome`, `goodbye`, `ticket`! 
 *   🚓 **beta**: `8ball`, `meme`, `server-setup` etc! 
