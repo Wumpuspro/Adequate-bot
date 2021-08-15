@@ -45,7 +45,7 @@ Adequate is an powerful bot
 
 You can directly **edit your configuration**, **manage your servers**, **view rankings**, **modify your profile** and much more!
 
-> Find the code in the dashboard folder! 
+> Find the code in the src folder! 
 
 ## Installation
 
