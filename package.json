@@ -1,0 +1,45 @@
+{
+  "name": "adequate-bot",
+  "version": "1.0.0",
+  "description": "Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon src/index.js --exec babel-node",
+    "build": "cross-env NODE_ENV=production babel src --out-dir dist",
+    "start": "cross-env NODE_ENV=production node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wumpuspro/Adequate-bot/.git"
+  },
+  "author": "Npg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wumpuspro/Adequate-bot/issues"
+  },
+  "homepage": "https://github.com/Wumpuspro/Adequate-bot/#readme",
+  "dependencies": {
+    "@discordjs/rest": "0.1.0-canary.0",
+    "ascii-table": "0.0.9",
+    "canvas": "2.8.0",
+    "core-js": "3.16.0",
+    "cross-env": "7.0.3",
+    "discord-api-types": "0.22.0",
+    "discord.js": "13.0.0",
+    "dotenv": "10.0.0",
+    "figlet": "1.5.0",
+    "moment": "2.29.1",
+    "quick.db": "github:lorencerri/quick.db",
+    "regenerator-runtime": "0.13.9"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.14.8",
+    "@babel/core": "7.15.0",
+    "@babel/node": "7.14.9",
+    "@babel/preset-env": "7.15.0",
+    "eslint": "7.32.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "2.23.4",
+    "nodemon": "2.0.12"
+  }
+}
