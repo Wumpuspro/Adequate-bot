@@ -180,8 +180,8 @@
 	"ticket": {
 		"usage": "```{{ p }} ticket``````{{ p }} ticket close```",
 		"description": "Esta herramienta es Util para dar soportes individuales en tu servidor, donde los usuarios podran reaccionar y obtener un canal especial para ellos y sus dudas.",
-		"titleSupport": "SOPORTE | Cold Bot",
-		"titleTicket": "TICKET | Cold Bot",
+		"titleSupport": "SOPORTE | Adequate Bot",
+		"titleTicket": "TICKET | Adequate Bot",
 		"descripDisabled": "`Por el momento las ayudas estan deshabilitadas.`",
 		"descripEnable": "@everyone `Reacciona con un `📩` para abrir un Ticket.`\n\nRecuerda que solo puede haber maximo un ticket abierto por persona.",
 		"descripTicket": "<@{{ id }}> tu ticket ha sido solicitado. Reacciona a '❌' para cerrar el Ticket.\n\nLos Administradores tambien podran eliminar tu Ticket"
