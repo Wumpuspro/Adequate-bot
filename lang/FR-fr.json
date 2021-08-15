@@ -146,3 +146,40 @@
 "activated": "Le séparateur d'arguments est actif.",
 "disabled": "Le séparateur d'arguments a été désactivé"
 },
+	
+
+	"ping": {
+"usage": "```{{ p }} ping``````{{ p }} pong```",
+"description": "Affiche le Ping du bot.",
+"title": "Pong!! 🏓",
+"loading": "Préparation du terrain...",
+"text": "🔹 La latence est `{{ pingMsg }} ms`.\n🔹 La latence API est `{{ pingApi }} ms`."
+},
+"statut": {
+"usage": "```{{ p }} status <status> {{ s }} <type> {{ s }} <name> {{ s }} [url]```",
+"description": "Ceci est uniquement destiné à l'administrateur du bot et est utilisé pour modifier l'état du bot.",
+"text": "Mon statut a été mis à jour avec succès (งツ)ว"
+},
+"suggestbot": {
+"usage": "```{{ p }} suggestbot <Suggestion/Idée pour le bot>``````{{ p }} sb <Suggestion/Idée>```",
+"description": "Avez-vous des suggestions/idées à partager avec nous ? Qu'attendez-vous ? Utilisez cette commande !!",
+"inserver": "**Server :**```\nName : {{ server }}\nID : {{ serverId }}```**Contenu :**```{{ content }}``` ",
+"inmd": "**Serveur :**```\nMessage envoyé par DM```**Contenu :**```{{ content }}```",
+"message": "{{ user }}, Votre suggestion a été envoyée, grâce à cela le projet s'améliore jour après jour. :muscle:"
+},
+"rapport": {
+"usage": "```{{ p }} rapport <Commande> {{ s }} <Rapport>```",
+"description": "Une commande ne fonctionne pas comme elle le devrait ?, Signalez-la !",
+"inserver": "**Server :**```\nName : {{ server }}\nID : {{ serverId }}```**Commande :**```{{ command }}``` **Bogue :**```{{ bogue }}```",
+"inmd": "**Serveur :**```\nMessage envoyé par DM```**Commande :**```{{ commande }}```**Bug :**```{{ bogue }}```",
+"message": "{{ user }}, Merci de nous avoir signalé le problème. Nous allons le résoudre le plus rapidement possible. :100:"
+},
+"serveur": {
+"usage": "```{{ p }} serverinfo```",
+"description": "Il montre les informations du serveur où vous êtes.",
+"J'ai fait",
+"région": "Région",
+"date": "Date de création",
+"owner": "Propriétaire du serveur",
+"membres": "Membres"
+},
