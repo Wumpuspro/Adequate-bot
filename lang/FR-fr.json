@@ -31,3 +31,40 @@
 "caché": "⛔",
 "bien": "✅"
 },
+	
+	"prêt": {
+"bot": "Bot prêt en tant que : {{ nameBot }}",
+"events": "Events : {{ events }}",
+"commandes": "Nombre de commandes : {{ commandes }}",
+"servers": "Nombre de serveurs : {{ serveurs }}",
+"users": "Nombre d'utilisateurs : {{ utilisateurs }}",
+"actiName": "Cold Bot est sur {{ serveurs }} serveurs. Allons-y pour plus."
+},
+"un message": {
+"mentionBot": "Bonjour, Le préfixe est : `{{ prefix }}` \nuse `{{ prefix }}h` pour en savoir plus.",
+"notMd": "La commande ne peut pas être utilisée en DM",
+"notServer": "Vous devez être en DM pour utiliser cette commande.",
+"invalidPermissions": "Il n'a pas les autorisations nécessaires. Vous avez besoin des autorisations suivantes :",
+"notHavePermissions": "Je ne peux pas utiliser cette commande 😵, j'ai besoin des autorisations suivantes :",
+"invalidArgs": "Arguments manquants, exemple d'utilisation : {{ utilisation }}",
+"cooldown": "Vous devez attendre {{ seg }}s à chaque fois que vous utilisez cette commande.",
+"error": "Une erreur s'est produite Contactez votre administrateur : {{ dev }}",
+"notSendMsg": "Je ne peux pas envoyer de messages au serveur **{{ server }}**.",
+"notSendEmbeds": "Je ne peux pas attacher d'intégrations, activez-moi l'option d'insérer des liens D :"
+},
+"channelUpdate": {
+"title": "**[Chaîne modifiée]**",
+"settings": "Les paramètres généraux et les autorisations ont été modifiés.\n\nChannel : **{{ channel }}**\nChannel ID : **{{ id }}**",
+"nameEdited": "\nNom précédent : **{{ oldName }}**\nNouveau nom : **{{ newName }}**\nIdentifiant de chaîne : **{{ id }}**\n"
+},
+"emojiUpdate": {
+"title": "**[Emoji modifié]**",
+"description": "**{{ oldName }}** emoji a été mis à jour en **{{ newName }}**"
+},
+"membreAu revoir": {
+"title": "**[Membre de gauche]**",
+"description": "{{ membre }} a quitté le serveur {{ serveur }}.",
+"message": "Au revoir {{ membre }} B)",
+"titleCard": "{{ member }} est sorti.",
+"descriptionCard": "Au revoir !"
+},
