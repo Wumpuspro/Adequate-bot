@@ -216,3 +216,46 @@
 "entryImg": "Rejoindre le serveur : {{ date }}"
 },
 	
+"dégager": {
+"usage": "```{{ p }} cls <Nombre de messages>```",
+"description": "Supprimez le nombre de messages que vous écrivez dans le premier argument, un maximum de 99.",
+"error": "Vous ne pouvez pas mettre de nombres négatifs ou supprimer plus de 99 messages",
+"message": "<@{{ user }}> supprimer les messages `{{ number }}` de <#{{ channel }}>",
+"success": "{{ number }} messages ont été supprimés (งツ)ว"
+},
+"meme": {
+"usage": "```{{ p }} meme <image link> {{ s }} <text> {{ s }} [Hexadécimal Color]``````{{ p }} meme <link> {{ s }} <texte>```",
+"description": "Générez un mème à travers une image et un texte que vous envoyez, vous pouvez également éventuellement envoyer la couleur du texte.",
+"imgNotWork": "L'image envoyée ne fonctionne pas..."
+},
+"dé": {
+"usage": "```{{ p }} dés```",
+"description": "Lancez le dé et cela vous donne au hasard la face d'un dé.",
+"titleGif": "lancer les dés...",
+"titleDice": "{{ user }}, dans les dés est venu un : "
+},
+"question": {
+"usage": "```{{ p }} q <question>```",
+"description": "Commande pour créer une question rapide et obtenir une réponse par votes",
+"title": "Sondage",
+"un": "Option 1",
+"deux": "Option 2",
+"desOne": "👍 D'accord",
+"desTwo": "👎 En désaccord"
+},
+"ascii": {
+"usage": "```{{ p }} ascii <phrase / word>``````{{ p }} art <phrase / word>```",
+"description": "Convertir les mots et les phrases en effet Ascii",
+"error": "Le texte saisi est invalide",
+"long": "Le texte dépasse les limites autorisées"
+},
+"surnom": {
+"usage": "```{{ p }} pseudo <Utilisateur> {{ s }} <Nouveau pseudo>```",
+"description": "Modifier le pseudonyme de l'Utilisateur mentionné.",
+"success": "{{ user }} pseudonyme, a été mis à jour avec succès en `{{ pseudo }}`"
+},
+"ball8": {
+"usage": "```{{ p }} pseudo <Usuario> {{ s }} <Nuevo Apodo>``````{{ p }} apodo <Usuario> {{ s }} <Nuevo Apodo> ```",
+"description": "Cambia el apodo del Usuario mencionado."
+}
+}
