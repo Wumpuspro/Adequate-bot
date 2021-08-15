@@ -183,3 +183,36 @@
 "owner": "Propriétaire du serveur",
 "membres": "Membres"
 },
+
+	
+	"billet": {
+"usage": "```{{ p }} ticket``````{{ p }} ticket close```",
+"description": "Cet outil est utile pour fournir des supports individuels à votre serveur, où les utilisateurs peuvent réagir et obtenir un canal spécial pour eux et leurs questions.",
+"titleSupport": "SUPPORT | Bot adéquat",
+"titleTicket": "TICKET | Bot adéquat",
+"descripDisabled": "`Pour le moment, les tickets sont désactivés.`",
+"descripEnable": "@everyone `Réagir avec un `📩` pour ouvrir un ticket.`\n\nRappelez-vous qu'il ne peut y avoir qu'un maximum d'un ticket ouvert par personne.",
+"descripTicket": "<@{{ id }}> votre ticket a été demandé. Réagissez avec un '❌' pour fermer le ticket.\n\nLes administrateurs peuvent également supprimer leur ticket"
+},
+"avatar": {
+"usage": "```{{ p }} avatar``````{{ p }} avatar [Utilisateur]``````{{ p }} avatar [Utilisateur/Texte] {{ s } } -gen```",
+"description": "Affichez votre avatar Discord, avec un lien pour le télécharger. ou vous pouvez également générer un avatar soit avec un utilisateur, soit le générer via une phrase/un texte.",
+"title": "Avatar de {{ user }}"
+},
+"profil": {
+"usage": "```{{ p }} profile``````{{ p }} profile [User]``````{{ p }} profile [User] {{ s }} - img``````{{ p }} profil -img```",
+"description": "Afficher les informations de votre profil sur le serveur où vous vous trouvez. vous pouvez également les faire apparaître à travers une image.",
+"bot": "Bot",
+"humain": "Humain",
+"pseudo": "Pseudo",
+"tag": "Tag",
+"statut": "Statut",
+"rôles": "Rôles",
+"register": "Sur Discord depuis",
+"entry": "Sur le serveur depuis",
+"notRoles": "N'a aucun rôle",
+"tagImg": "Tag : #{{ tag }}",
+"registerImg": "Rejoindre Discord : {{ date }}",
+"entryImg": "Rejoindre le serveur : {{ date }}"
+},
+	
