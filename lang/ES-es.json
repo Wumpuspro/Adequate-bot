@@ -85,8 +85,8 @@
 	},
 	"botinfo": {
 		"usage": "```{{ p }} botinfo```",
-		"description": "Da la Información de Cold Bot, numero de servidores, canales, desarrollador, esas cosas.",
-		"title": "☁ Información - Cold Bot",
+		"description": "Da la Información de Adequate Bot, numero de servidores, canales, desarrollador, esas cosas.",
+		"title": "☁ Información - Adequate Bot",
 		"descriptionBot": "Hola, Soy un Bot multiproposito de **codigo abierto**, espero que te diviertas utilizando mis funciones. y me ayudes a mejorar mis falencias.",
 		"titleGeneral": "🔘 General",
 		"fieldGeneral": "============\n⚙ **Desarrollador**: {{ dev }}\n📡 **Servidores**: `{{ servers }}`\n👥 **Usuarios**: `{{ users }}`\n📣 **Canales**: `{{ channels }}`",
