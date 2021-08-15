@@ -1,1 +1,33 @@
-hmm
+{
+"languageName": "FR-fr",
+"général": {
+"userNotFound": "Utilisateur non trouvé",
+"commandNotFound": "La commande saisie n'existe pas",
+"notManageable": "Je ne suis pas autorisé à accéder à cet utilisateur",
+"J'ai fait: ",
+"Oui oui",
+"pas pas"
+},
+"init": {
+"polices": {
+"title": "Polices",
+"head1": "Nom"
+},
+"événements": {
+"title": "Événements",
+"head1": "Événement"
+},
+"commandes": {
+"title": "Commandes",
+"head1": "Commande",
+"notWorking": "❌ -> Vous ne pouvez pas placer de commande ici."
+},
+"head": "État de charge",
+"error": "Une erreur s'est produite lors de la connexion, Vérifiez le mot de passe ou Internet :X",
+"notAttribute": "❌ -> n'a pas l'attribut '{{ attribut }}'",
+"notReq": "❌ -> 'req' n'a pas l'attribut '{{ req }}'",
+"notFunction": "❌ -> '{{ notFunction }}' n'est pas une fonction",
+"disabled": "⚠ -> Il est désactivé",
+"caché": "⛔",
+"bien": "✅"
+},
