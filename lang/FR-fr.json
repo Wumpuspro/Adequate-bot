@@ -68,3 +68,27 @@
 "titleCard": "{{ member }} est sorti.",
 "descriptionCard": "Au revoir !"
 },
+
+	
+"memberWelcome": {
+"title": "**[Nouveau membre]**",
+"description": "{{ membre }} a rejoint le serveur {{ serveur }}.",
+"messageMd": "{{ membre }} Hellooooo, Bienvenue sur {{ serveur }}.",
+"message": "Bienvenue {{ membre }}",
+"titleCard": "{{ membre }} Bienvenue",
+"descriptionCard": "Au serveur {{ server }}"
+},
+"pinsUpdate": {
+"title": "**[Message épinglé]**",
+"description": "Mise à jour d'un message épinglé sur le canal <#{{ id }}>"
+},
+"botinfo": {
+"usage": "```{{ p }} botinfo```",
+"description": "Il montre les informations adéquates sur le bot, le nombre de serveurs, de canaux, de développeurs, ces choses.",
+"title": "☁ Informations - Robot adéquat",
+"descriptionBot": "Bonjour, je suis un robot polyvalent ** open source **, j'espère que vous vous amuserez à utiliser mes fonctionnalités. et m'aiderez à améliorer mes lacunes.",
+"titleGeneral": "🔘 Général",
+"fieldGeneral": "============\n⚙ **Développeur** : {{ dev }}\n📡 **Serveurs** : `{{ serveurs }}`\n👥 **Utilisateurs** : `{{ utilisateurs }}`\n📣 **Canaux** : `{{ canaux }}`",
+"titleBot": "🤖 Bot",
+"fieldBot": "============\n🏓 **Ping** : `{{ ping }}ms`\n⌨ **Commandes** : `{{ commandes }}` \n🕹 **Discord.js** : `{{ discordV }}`\n🇳 **NodeJS** : `{{ nodeV }}`"
+},
