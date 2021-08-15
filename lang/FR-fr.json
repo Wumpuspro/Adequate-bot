@@ -92,3 +92,27 @@
 "titleBot": "🤖 Bot",
 "fieldBot": "============\n🏓 **Ping** : `{{ ping }}ms`\n⌨ **Commandes** : `{{ commandes }}` \n🕹 **Discord.js** : `{{ discordV }}`\n🇳 **NodeJS** : `{{ nodeV }}`"
 },
+
+
+"aider": {
+"usage": "```{{ p }} help``````{{ p }} h <commande>```",
+"description": "Fournit une aide de base pour Adequate Bot et peut également vous donner des informations supplémentaires sur chaque commande.",
+"compléments": {
+"complement1": ", et le séparateur d'argument est `{{ value }}`",
+"complement2": "   Nécessite certaines autorisations pour son utilisation",
+"complement3": "   Ne nécessite pas d'autorisations",
+"complément4": "   Peut être utilisé en dm",
+"complement5": "   Ne peut pas être utilisé dans dm",
+"complement6": "   A un temps de recharge de {{ seg }}s."
+},
+"text": "Bonjour, le préfixe est `{{ prefix }}` {{ text1 }} \n\n:small_blue_diamond:Pour voir la liste complète des commandes, utilisez `{{ prefix }}cmds` \n :small_blue_diamond : Pour une description plus détaillée de l'utilisation de Command, utilisez : `{{ prefix }}h <command>`\n:small_blue_diamond:Pour que l'administrateur change la langue à utiliser : `{{ prefix }}lang`\n\n : small_blue_diamond : Une commande ne fonctionne pas comme elle le devrait ?, Utilisez la commande : `{{ prefix }}report`\n:small_blue_diamond:N'hésitez pas à utiliser `{{ prefix }}suggestbot` pour recevoir vos suggestions !",
+"titleLink": "Liens",
+"links": ":snowflake: [Support Server](https://discord.gg/UA6sSqKXpZ)\n:snowflake: [Invitez-moi sur votre serveur]({{ link }})\n:snowflake: ",
+"notFound": "Commande non trouvée.",
+"category": "Catégorie : {{ category }}",
+"nom": "`Commande : {{ commande }}`",
+"alias": "Alias",
+"descripCommand": "Description",
+"usageCommand": "Utilisation | Exemples",
+"settingsCommand": "``` Arguments minimum requis : {{ args }}\n\n{{ md }}\n{{ autorisations }}\n{{ cooldown }}```"
+},
