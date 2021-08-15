@@ -116,3 +116,33 @@
 "usageCommand": "Utilisation | Exemples",
 "settingsCommand": "``` Arguments minimum requis : {{ args }}\n\n{{ md }}\n{{ autorisations }}\n{{ cooldown }}```"
 },
+	
+	
+	
+"commandes": {
+"usage": "```{{ p }} commandes```",
+"description": "J'affiche une liste de toutes les commandes qui peuvent être utilisées",
+"title": "Liste de commandes",
+"commandsNum": "Préfixe : `{{ prefix }}`\nNombre de commandes : `{{ num }}`",
+"footer": "Le nombre de commandes ne correspond pas à la liste ? Il y a des commandes cachées !"
+},
+"Langue": {
+"usage": "```{{ p }} lang``````{{ p }} lang <New Lenguaje>```",
+"description": "Changer la langue générale du bot en une autre pour l'ensemble de votre serveur",
+"title": "Langues",
+"notFound": "Langue non disponible",
+"selected": "La langue sélectionnée est `{{ lang }}`",
+"chosenOne": "Langue mise à jour vers `{{ lang }}`"
+},
+"préfixe": {
+"usage": "```{{ p }} préfixe <Nouveau préfixe>```",
+"description": "Changer le préfixe du bot sur votre Serveur",
+"message": "Changer le préfixe en `{{ prefix }}`"
+},
+"diviser": {
+"usage": "```{{ p }} split <true/false> {{ s }} <Argument Separator>```",
+"description": "Vous n'aimez pas le séparateur d'arguments ?, ici vous pouvez le désactiver ou le remplacer par un autre.",
+"message": "Remplacez le séparateur d'arguments en `{{ split }}`",
+"activated": "Le séparateur d'arguments est actif.",
+"disabled": "Le séparateur d'arguments a été désactivé"
+},
