@@ -95,7 +95,7 @@
 	},
 	"help": {
 		"usage": "```{{ p }} help``````{{ p }} h <comando>```",
-		"description": "Brinda Una ayuda Basica de Cold Bot y tambien puede darte informacion adicional de cada comando.",
+		"description": "Brinda Una ayuda Basica de Adequate Bot y tambien puede darte informacion adicional de cada comando.",
 		"complements": {
 			"complement1": ", y el separador de argumentos es `{{ value }}`",
 			"complement2": "🪐 Requiere algunos permisos para su uso",
