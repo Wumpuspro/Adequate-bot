@@ -8,7 +8,7 @@ const idServer = '872467020980039681';
 
 const commands = [{
 	name: 'ping',
-	description: 'Ping bot'
+	description: 'Ping of bot'
 }];
 
 const rest = new REST( { version: '9' } ).setToken( password );
