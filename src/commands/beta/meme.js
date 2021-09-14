@@ -75,3 +75,13 @@ export default {
 		await loadMeme( msg, args[0], args[1], color );
 	},
 };
+
+
+```/**
+ * @INFO
+ * Bot Coded by Npg |
+ * Https://youtube.com/NPGARMY
+ * @INFO
+ * Please mention Him , when using this Code!
+ * @INFO
+ */```
