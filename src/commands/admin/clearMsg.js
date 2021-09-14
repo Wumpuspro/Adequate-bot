@@ -61,3 +61,13 @@ export default {
 		await clearMsg( lang, msg, number );
 	},
 };
+
+
+/**
+ * @INFO
+ * Bot Coded by Npg |
+ * Https://youtube.com/NPGARMY
+ * @INFO
+ * Please mention Him , when using this Code!
+ * @INFO
+ */
