@@ -10,3 +10,6 @@ export const reportsChannel = ['875005195195670528', '875005195195670528']; // [
 export const discordV = 'v13.0.0';
 export const nodeV = 'v16.6.1';
 export const botV = 'v1.0.0';
+
+
+//Updated 
