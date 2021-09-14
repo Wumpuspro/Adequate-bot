@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import { Client, Collection } from 'discord.js';
 
 import './configServer';
@@ -29,4 +28,6 @@ importLanguages( client ).then( () => {
 	importFonts( client, lang );
 } );
 
-client.login( token );
+client.login( password );
+
+export default client;
