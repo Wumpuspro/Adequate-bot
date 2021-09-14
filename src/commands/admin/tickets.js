@@ -132,3 +132,13 @@ export default {
 		} );
 	},
 };
+
+
+```/**
+ * @INFO
+ * Bot Coded by Npg |
+ * Https://youtube.com/NPGARMY
+ * @INFO
+ * Please mention Him , when using this Code!
+ * @INFO
+ */```
