@@ -1,0 +1,19 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+    time: "04:00"
+  open-pull-requests-limit: 10
+  target-branch: develop
+  reviewers:
+  - Androz2091
+  ignore:
+  - dependency-name: eslint
+    versions:
+    - 7.32.0
+    - 7.32.0
+  - dependency-name: "nodemon"
+    versions:
+    - 2.0.12
